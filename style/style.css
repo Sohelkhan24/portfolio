@@ -60,3 +60,20 @@ nav ul{
     font-size:18px;
     font-weight:400px;
 }
+.banner-profile{
+    width:580px;
+}
+.banner{
+    display:flex;
+    justify-content:space-between;
+    margin:0 35px 0 230px;
+}
+.banner-content{
+    width:585px;
+    
+}
+.header{
+    background-image:url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position:top left, bottom right;
+}
