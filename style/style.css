@@ -203,7 +203,7 @@ main section{
 footer-column{
     width:50%;
 }
-footer input[type="text"]{
+footer input[type="text"], footer input[type="email"]{
     height:54px;
     width:100%;
     padding:10px 50px;
@@ -212,21 +212,13 @@ footer input[type="text"]{
     background-color:white;
     border-radius:5px;
     border:none;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     
-}
-footer input[type="email"]{
-    height:54px;
-    width:100%;
-    padding:10px 50px;
-    display:block;
-    margin-bottom:24px;
-    background-color:white;
-    border-radius:5px;
-    border:none;
 }
 footer textarea{
     height:180px;
     border:none;
     padding:18px 365px 134px 30px;
     margin-bottom:20px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
