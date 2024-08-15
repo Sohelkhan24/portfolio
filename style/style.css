@@ -98,6 +98,7 @@ main{
 .section-title{
     font-weight:bold;
     font-size:35px;
+    
 
 }
 .section-description{
@@ -147,4 +148,85 @@ main{
 main section{
     margin-top:130px;
     margin-bottom:130px;
+}
+/* Resume style */
+.resume-container{
+    display:flex;
+    gap:24px;
+}
+.secton-title{
+    margin-bottom:100px;
+    font-weight:bold;
+    font-size:35px;
+}
+.resume-title{
+    color:#474747;
+    font-weight:bold;
+    font-size:30px;
+}
+.resume-columan-title{
+    font-weight:bold;
+    font-size:25px;
+    color:#474747;
+}
+.resume-sub-title{
+    color:#757575;
+    font-weight:600px;
+    font-size:20px;
+    margin-bottom:20px;
+}
+.description{
+    color:#757575;
+    font-weight:400px;
+    font-size:16px;
+}
+.resume hr{
+    margin:30px 0px;
+}
+.resume-btn{
+    text-align:center;
+    margin-top:50px;
+}
+.footer{
+    display:flex;
+    
+    padding:130px 230px;
+    gap:100px;
+    
+}
+.footer-title{
+    font-weight:bold;
+    font-size:35px;
+    color:#181818;
+    
+}
+footer-column{
+    width:50%;
+}
+footer input[type="text"]{
+    height:54px;
+    width:100%;
+    padding:10px 50px;
+    display:block;
+    margin-bottom:24px;
+    background-color:white;
+    border-radius:5px;
+    border:none;
+    
+}
+footer input[type="email"]{
+    height:54px;
+    width:100%;
+    padding:10px 50px;
+    display:block;
+    margin-bottom:24px;
+    background-color:white;
+    border-radius:5px;
+    border:none;
+}
+footer textarea{
+    height:180px;
+    border:none;
+    padding:18px 365px 134px 30px;
+    margin-bottom:24px;
 }
